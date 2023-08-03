@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="abubakar hassan">
+    <meta name="description" content="car hire website">
+    <title>CAR HIRE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box1">
+
+    </div>
+    <div class="box2">
+
+    </div>
+
+    <div class="container">
+        <div class="inner-container">
+        <h2>Search for a rental car</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="location">Pick up location</label>
+            <select name="location" id="location">
+            <option value="city">City, airport, region, district...</option>
+            <option value="airport">airport</option>
+            <option value="region">region</option>
+            <option value="district">district</option>
+        </select>
+        </p>
+        <p>
+            <input type="checkbox" name="other" id="other" value="other">
+            <label class="check" for="type">Deliver the car somewhere else</label>
+        </p>
+<div class="datetime">
+        <p class="dp">
+            <label for="start">Date of pickup</label> <br>
+            <input type="date" id="start" name="trip-start" value="25-07-2023" placeholder="dd-mm-yyy" min="01-01-1990" max="31-12-2023">
+            <input type="time" id="appt" name="appt" value="12:00" placeholder="hh:mm">
+        </p>
+        <p class="du">
+            <label for="start">Date of delivery</label> <br>
+            <input type="date" id="start" name="trip-start" value="25-07-2023" placeholder="dd-mm-yyy" min="01-01-1990" max="31-12-2023">
+            <input type="time" id="appt" name="appt" value="12:00" placeholder="hh:mm">
+        </p>
+    </div>
+
+    <p>
+        <input type="checkbox" name="age" id="age" value="65" min="30" max="65">
+        <label class="check" for="type">The driver's age between 30 and 65?&#9201;</label>
+    </p>
+        
+        <P class="condition">
+            &#10004; No credit card fees <br>
+            &#10004; No change fees <br>
+            &#10004; Price match guarantee <br>
+        </P>
+
+        <button>Search</button>
+    </form>
+    </div>
+
+    
+    </div>
+    
+</body>
+</html>
